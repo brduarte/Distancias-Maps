@@ -1,4 +1,5 @@
 const inquirer = require('inquirer');
+var env = require('env')();
 
 const prompt = inquirer.createPromptModule(); 
 
