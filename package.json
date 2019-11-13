@@ -1,0 +1,23 @@
+{
+  "name": "Distancias-Maps",
+  "version": "1.0.0",
+  "description": "Console que retorna a distancia de dois pontos específicos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brduarte/Distancias-Maps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brduarte/Distancias-Maps/issues"
+  },
+  "homepage": "https://github.com/brduarte/Distancias-Maps#readme",
+  "dependencies": {
+    "inquirer": "^7.0.0"
+  }
+}
