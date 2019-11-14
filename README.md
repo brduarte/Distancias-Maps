@@ -1,6 +1,6 @@
 # Distancias-Maps
 
-| [<img width="500px" src="https://github.com/brduarte/Distancias-Maps/blob/master/img.gif">|
+| [<img width="50%" src="https://github.com/brduarte/Distancias-Maps/blob/master/img.gif">|
 | :---: |
 
 
