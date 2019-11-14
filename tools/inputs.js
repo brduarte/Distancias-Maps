@@ -1,7 +1,6 @@
 const inquirer = require('inquirer');
-var env = require('env')();
 
-const prompt = inquirer.createPromptModule(); 
+const prompt = inquirer.createPromptModule();
 
 async function inputText(label) {
 
@@ -15,7 +14,7 @@ async function inputText(label) {
 
 }
 
-async function inputList(label ,options = []) {
+async function inputList(label, options = []) {
 
     const response = await prompt({
         type: 'list',

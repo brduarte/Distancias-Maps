@@ -1,7 +1,9 @@
 const components = {
     inputs: require('./tools/inputs'),
-    env: require('env')()
+    googleService: require('./service/googleService')
 }
+
+
 
 start();
 
@@ -9,11 +11,12 @@ async function start() {
 
     const content = {}
 
-
-    console.log(env.get('REPOSITORI_API'))
-
+    content.origins = 'Papagaios'
+    content.destinations = 'Maravilhas'
+    content.mode = 'driving'
     // await inputUser(content);
-    // console.log(content);
+    manipulateRoutes(content)
+
 
 
 }
@@ -38,3 +41,20 @@ async function inputUser(content) {
     ]);
 
 }
+
+async function manipulateRoutes(content) {
+
+    const response = await components.googleService.getDistanceMatrix(content);
+
+    content.origins = response.destination_addresses;
+    content.destinations = response.origin_addresses;
+
+    response.rows.forEach(elements => {
+
+        content.data = [];
+        content.data.push(elements)
+
+    });
+
+}
+

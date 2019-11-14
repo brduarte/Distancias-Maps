@@ -2,12 +2,19 @@ module.exports = {
 
     googleAPi: {
 
-        mapsDistanceMatrix: {
-            url: "https://maps.googleapis.com/maps/api/distancematrix/json",
-            units: "imperial",
-            language: "pt-BR",
-            key: ""
+        maps: {
+
+            url: "https://maps.googleapis.com/maps",
+
+            distanceMatrix: {
+                uri: 'api/distancematrix/json',
+                language: "pt-BR",
+                units: "matric",
+                key: "AIzaSyCrvcRbBS-6sLxDCV-qe30ozJd-JtfCmzk"
+            }
         }
+
+
 
     }
 
