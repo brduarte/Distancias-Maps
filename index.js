@@ -9,11 +9,9 @@ async function start() {
 
     const content = {}
 
-    content.origins = 'Papagaios'
-    content.destinations = 'Maravilhas'
-    content.mode = 'driving'
-    // await inputUser(content);
-    manipulateRoutes(content)
+    await inputUser(content);
+    await manipulateRoutes(content);
+    diplayResponse(content);
 
 }
 
@@ -46,11 +44,18 @@ async function manipulateRoutes(content) {
     content.destinations = response.origin_addresses;
 
     response.rows.forEach(elements => {
-
         content.data = [];
         content.data.push(elements)
-
     });
+
+}
+
+function diplayResponse(content) {
+ 
+    console.log('Ponto de partida ----------> ' + content.origins);
+    console.log('Ponto de destino ----------> ' + content.destinations);
+    console.log('Distancia ---------> ' + content.data[0].elements[0].distance.text);
+    console.log('Tempo ----> ' + content.data[0].elements[0].duration.text);
 
 }
 
