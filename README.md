@@ -1,15 +1,13 @@
 # Distancias-Maps
 
+O sistema serve pra nada. Eu fiz só pra montar um estrutura de reutilizar API's 
+Mas é legal!
+
 |<img width="70%" src="https://github.com/brduarte/Distancias-Maps/blob/master/img.gif">
 
-
-
-
-## ⚒️ Ferramentas utilizadas 
+## ⚒️ Funcionalidades
   
-  - Node.js
-  - Express
-  - Socket.io
+  - Consulta a distancia entre dois pontos geograficos utilizando a API do Google Maps
 
 ## 👨‍💻 Executando localmente 
 
