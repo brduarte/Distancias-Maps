@@ -58,4 +58,3 @@ function diplayResponse(content) {
     console.log('Tempo ----> ' + content.data[0].elements[0].duration.text);
 
 }
-
