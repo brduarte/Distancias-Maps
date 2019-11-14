@@ -3,8 +3,6 @@ const components = {
     googleService: require('./service/googleService')
 }
 
-
-
 start();
 
 async function start() {
@@ -16,8 +14,6 @@ async function start() {
     content.mode = 'driving'
     // await inputUser(content);
     manipulateRoutes(content)
-
-
 
 }
 
