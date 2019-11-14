@@ -1,17 +1,18 @@
 # Distancias-Maps
 
-O sistema serve pra nada. Eu fiz só pra montar um estrutura de reutilizar API's 
-Mas é legal!
+O sistema serve pra nada! O foco a penas foi em criar uma estrutura para consumir API's.
 
-|<img width="70%" src="https://github.com/brduarte/Distancias-Maps/blob/master/img.gif">
+|<img width="50%" src="https://github.com/brduarte/Distancias-Maps/blob/master/img.gif">
 
 ## ⚒️ Funcionalidades
   
-  - Consulta a distancia entre dois pontos geograficos utilizando a API do Google Maps
+  - Consultar a distância entre dois pontos geográficos utilizando a API do Google Maps
 
 ## 👨‍💻 Executando localmente 
 
 Assegure-se de ter [Node.js](http://nodejs.org/) instalado
+
+- Primeiro você precisa ativar api do [Distance Matrix API](https://developers.google.com/maps/documentation/distance-matrix/intro?hl=pt-br)
 
 ```shell script
 $ git clone https://github.com/brduarte/Jogo-Multiplayer.git # ou clone seu próprio fork
@@ -28,15 +29,6 @@ Você pode fazer um teste rápido em: [jogo-multiplayer.herokuapp.com](https://j
 Para obter mais informações das ferramentas utilizadas:
 
 - [Node.js](https://nodejs.org/en/docs/)
-- [Express](https://expressjs.com/pt-br/)
-- [Socket.io](https://socket.io/docs/)
-
-## Fontes
-
-Código baseado na playlist do canal no YouTube [Felipe Deschamps](https://www.youtube.com/watch?v=0sTfIZvjYJk&list=PLMdYygf53DP5SVQQrkKCVWDS0TwYLVitL): 
-
-| [<img src="https://avatars0.githubusercontent.com/u/4248081?v=3&s=115"><br><sub>@filipedeschamps</sub>](https://github.com/filipedeschamps) |
-| :---: |
 
 ## Autor
 
