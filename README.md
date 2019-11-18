@@ -1,6 +1,6 @@
 # Distancias-Maps
 
-O sistema serve pra nada! O foco a penas foi em criar uma estrutura para consumir API's.
+O sistema serve pra nada! O foco foi apenas em criar uma estrutura para consumir API's.
 
 |<img width="50%" src="https://github.com/brduarte/Distancias-Maps/blob/master/img.gif">
 
