@@ -18,7 +18,7 @@ Assegure-se de ter [Node.js](http://nodejs.org/) instalado
 $ git clone https://github.com/brduarte/Distancias-Maps.git # ou clone seu próprio fork
 ```
 
-- 2º você precisa ativar api do [Distance Matrix API](https://developers.google.com/maps/documentation/distance-matrix/start) do Google Maps
+- 2º você precisa ativar API do [Distance Matrix API](https://developers.google.com/maps/documentation/distance-matrix/start) do Google Maps
 - 3º na pasta raiz é preciso renomear o arquivo 'config.exemplo.js' para 'config.js'
 
 Ex: /config.js
