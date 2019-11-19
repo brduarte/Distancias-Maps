@@ -12,7 +12,7 @@ O sistema serve pra nada! O foco foi apenas em criar uma estrutura para consumir
 
 Assegure-se de ter [Node.js](http://nodejs.org/) instalado
 
-- Primeiro você precisa ativar api do [Distance Matrix API](https://developers.google.com/maps/documentation/distance-matrix/intro?hl=pt-br)
+- Primeiro você precisa ativar api do [Distance Matrix API] do Google Maps(https://github.com/brduarte/Distancias-Maps.git)
 
 ```shell script
 $ git clone https://github.com/brduarte/Jogo-Multiplayer.git # ou clone seu próprio fork
@@ -20,9 +20,6 @@ $ cd Jogo-Multiplayer
 $ npm install
 $ npm start
 ```
-Seu aplicativo agora deve estar sendo executado em [localhost:3000](http://localhost:3000/).
-
-Você pode fazer um teste rápido em: [jogo-multiplayer.herokuapp.com](https://jogo-multiplayer.herokuapp.com/)
 
 ## 📝 Documentação 
 
