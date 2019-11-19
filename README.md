@@ -4,7 +4,7 @@ O sistema serve pra nada! O foco foi apenas em criar uma estrutura para consumir
 
 |<img width="50%" src="https://github.com/brduarte/Distancias-Maps/blob/master/img.gif">
 
-## ⚒️ Funcionalidades
+## ⚒️ Funcionalidade
   
   - Consultar a distância entre dois pontos geográficos utilizando a API do Google Maps
 
@@ -12,12 +12,14 @@ O sistema serve pra nada! O foco foi apenas em criar uma estrutura para consumir
 
 Assegure-se de ter [Node.js](http://nodejs.org/) instalado
 
+- 1º clone o projeto:
+
 ```shell script
 $ git clone https://github.com/brduarte/Distancias-Maps.git # ou clone seu próprio fork
 ```
 
-- 1º você precisa ativar api do [Distance Matrix API](https://developers.google.com/maps/documentation/distance-matrix/start) do Google Maps
-- 2º Na pasta raiz existe o arquivo config.exemplo.js; você precisa renomea-lo para 'config.js' e fazer as configurações nescessárias
+- 2º você precisa ativar api do [Distance Matrix API](https://developers.google.com/maps/documentation/distance-matrix/start) do Google Maps
+- 3º na pasta raiz é preciso renomear o arquivo 'config.exemplo.js' para 'config.js'
 
 Ex: /config.js
 ```js script
@@ -34,6 +36,8 @@ Ex: /config.js
     }
 ```
 
+- 4º depois é só executar o projeto
+
 ```shell script
 $ cd Jogo-Multiplayer
 $ npm install
@@ -45,6 +49,7 @@ $ npm start
 Para obter mais informações das ferramentas utilizadas:
 
 - [Node.js](https://nodejs.org/en/docs/)
+- [Distance Matrix API](https://developers.google.com/maps/documentation/distance-matrix/start)
 
 ## Autor
 
