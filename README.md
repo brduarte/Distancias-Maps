@@ -44,7 +44,7 @@ $ npm install
 $ npm start
 ```
 
-## 📝 Documentação 
+## 📝 Documentações 
 
 Para obter mais informações das ferramentas utilizadas:
 
