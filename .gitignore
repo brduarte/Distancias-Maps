@@ -62,3 +62,5 @@ typings/
 
 #Configuração do projeto
 config.js
+.idea
+.idea/distancias-maps.iml

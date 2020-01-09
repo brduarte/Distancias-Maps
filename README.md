@@ -12,14 +12,14 @@ O sistema serve pra nada! O foco foi apenas em criar uma estrutura para consumir
 
 Assegure-se de ter [Node.js](http://nodejs.org/) instalado
 
-- 1º clone o projeto:
+- 1º Clone o projeto:
 
 ```shell script
 $ git clone https://github.com/brduarte/Distancias-Maps.git # ou clone seu próprio fork
 ```
 
-- 2º você precisa ativar API do [Distance Matrix API](https://developers.google.com/maps/documentation/distance-matrix/start) do Google Maps
-- 3º na pasta raiz é preciso renomear o arquivo 'config.exemplo.js' para 'config.js'
+- 2º Você precisa ativar API do [Distance Matrix API](https://developers.google.com/maps/documentation/distance-matrix/start) do Google Maps
+- 3º Na pasta raiz é preciso renomear o arquivo 'config.exemplo.js' para 'config.js'
 
 Ex: /config.js
 ```js script
@@ -39,7 +39,6 @@ Ex: /config.js
 - 4º depois é só executar o projeto
 
 ```shell script
-$ cd Jogo-Multiplayer
 $ npm install
 $ npm start
 ```
