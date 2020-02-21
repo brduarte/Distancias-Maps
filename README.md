@@ -2,7 +2,10 @@
 
 O sistema serve pra nada! O foco foi apenas em criar uma estrutura para consumir API's.
 
-|<img width="50%" src="https://github.com/brduarte/Distancias-Maps/blob/master/img.gif">
+<p align="center">
+  <img width="50%" src="https://github.com/brduarte/Distancias-Maps/blob/master/img.gif">
+</p>
+|
 
 ## ⚒️ Funcionalidade
   
